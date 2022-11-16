@@ -1,0 +1,49 @@
+header{
+    height: 60px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.conduit{
+    color: rgb(159, 43, 195);
+    text-decoration: none;
+    float: left;
+    padding-right: 30%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.bar li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.signup{
+    text-align: center;
+}
+.signup h1{
+    color: blue;
+}
+.signup a{
+    text-decoration: none;
+}
+.box{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.but{
+    position: fixed;
+    background-color: aqua;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
