@@ -7,28 +7,99 @@
     <title>Home</title>
     <link rel="stylesheet" href="home.css">
 </head>
-<body>
+<body id="body">
     <header>
         <a class="conduit" href="home.html">conduit</a>
         <ul class="bar">
-        <li><a href="home.html">conduit</a></li>
         <li><a href="home.html">Home</a></li>
         <li> <a href="login.html">Sign in</a></li>
         <li><a href="signup.html">Sign up</a></li>
         </ul>
     </header>
+    <div class="header-under"></div>
     <div class="banner">
-        <div class="smm">
-            <h1>conduit</h1>
-            <p>A place to share your knowledge</p>
-        </div>
+        <div class="big">conduit</div>
+        <div class="small">A place to share your knowledge</div>
+        <input class="box" type="text" value="" id="input1">
     </div>
-    <div class="main">
-        <div class="review">
-            <div class="global feed">
-                <p>Global Feed</p>
+    <div class="content">
+        <div class="feed">
+            <ul class="tab-bar">
+                <li class="tab"><a href="" class="tab-txt">Global Feed</a></li>
+                <li class="tab"><a href="" class="tab-txt">Your Feed</a></li>
+            </ul>
+            <div class="posts">
+                <div class="post">
+                    <div class="info">
+                        <div class="author">
+                            <div class="avatar"><img src="avatar.png" alt="Writer's Avatar"></div>
+                            <div class="account">
+                                <div class="name"><a href="">mindX</a></div>
+                                <div class="date">October 9, 2022</div>
+                            </div>
+                        </div>
+                        <div><button class="btn-like" type="submit">Like</button></div>
+                    </div>
+                    <div class="text">
+                        <div class="text-main">Tenetur rerum qui occaecati reiciendis aut eos, commodi dicta ide laborum magnam sed occaecati </div>
+                        <div class="text-sub">ccaec commodiati reiciendis aut eos, dicta id, qui error dicta est enim nulla sequi quia unde laborum magnam sed occaecati, quasi voluptatibus omnis voluptatibus </div>
+                    </div>
+                        <div class="comment">
+                        <div class="read-more"><a href="">Read more...</a></div>
+                        <div class="tag"></div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="author">
+                            <div class="avatar"><img src="avatar.png" alt="Writer's Avatar"></div>
+                            <div class="account">
+                                <div class="name"><a href="">mindX</a></div>
+                                <div class="date">October 9, 2022</div>
+                            </div>
+                        </div>
+                        <div class="like"><button class="btn-like">Like</button></div>
+                    </div>
+                    <div class="text">
+                        <div class="text-main">Tenetur rerum qui occaec commodiati reiciendis aut eos, dicta id, qui error dicta est enim nulla sequi quia unde laborum magnam sed occaecati, quasi voluptatibus omnis voluptatibus commodi in nemo vitae.</div>
+                        <div class="text-sub">Consectetur suscipit beatae est ut ut dolorem voluptas.</div>
+                    </div>
+                    <div class="comment">
+                        <div class="read-more"><a href="">Read more...</a></div>
+                        <div class="tag"></div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="author">
+                            <div class="avatar"><img src="avatar.png" alt="Writer's Avatar"></div>
+                            <div class="account">
+                                <div class="name"><a href="">mindX</a></div>
+                                <div class="date">October 9, 2022</div>
+                            </div>
+                        </div>
+                        <div class="like"><button class="btn-like">Like</button></div>
+                    </div>
+                    <div class="text">
+                        <div class="text-main">qui error dicta est enim nulla sequi quia unde laborum magnam sed occaecati, quasi voluptatibus omnis voluptatibus commodi in nemo vitae.</div>
+                        <div class="text-sub">Consectetur suscipit beatae est ut ut dolorem voluptas.</div>
+                    </div>
+                    <div class="comment">
+                        <div class="read-more"><a href="">Read more...</a></div>
+                        <div class="tag"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tag-pop">
+            <div class="popular-tag">Popular Tags</div>
+            <div class="tag-list">
+                <a href="" class="tags">welcome</a>
+                <a href="" class="tags">tips</a>
+                <a href="" class="tags">catt</a>
             </div>
         </div>
     </div>
+<script src="./home.js"></script>
 </body>
 </html>

@@ -22,10 +22,157 @@ header{
     text-decoration: none;
     font-size: 20px;
 }
-.banner{
-    background-color: aqua;
-    color: chocolate;
+.header-under {
+    height: 51.2px;
 }
-.smm{
+.banner{
+    background-color: transparent;
+    width: 100vw;
+    padding: 3rem 0;
     text-align: center;
+}
+
+.big{
+    color: salmon;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.small{
+    color: salmon;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.box {
+    background-color: salmon;
+    border: 1px solid salmon;
+    width: 310px;
+    height: 1px;
+}
+.content{
+    background-color: white;
+    display: flex;
+    padding: 2rem 10vw;
+}
+
+.feed{
+    justify-content: left;
+    width: 75vw;
+}
+
+.tab-bar{
+    display: flex;
+    border-bottom: 1px solid yellowgreen;
+    margin-bottom: 3rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem;
+}
+.tab-txt:hover {
+    color: green;
+    font-weight: 600;
+}
+
+.tab-txt {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.posts{
+    padding: 1px;
+}
+
+.post{
+    margin-bottom: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 1rem;
+}
+
+.post:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    margin: 0.5rem;
+    height: 32px;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.name{
+    display: inline-block;
+    font-weight: 600;
+}
+.name a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+.date{
+    font-size: 12px;
+}
+.btn-like {
+    border-radius: 5px;
+    padding: 0.25rem;
+    border: 1px solid gray;
+}
+.text-main{
+    margin-bottom: 0.5rem;
+    font-weight: 550;
+}
+
+.text-sub{
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.comment{
+    margin-bottom: 0.5rem;
+}
+
+.read-more{
+    font-size: 14px;
+    font-style: italic;
+}
+.read-more a{
+    text-decoration: none;
+}
+.tag-pop{
+    justify-content:center;
+    width: 25vw;
+}
+
+.popular-tag{
+    text-align: left;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+.tags{
+    text-align: left;
+    border-radius: 10px;
+    margin-right: 5px;
+    border: 2px solid gray;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
 }
