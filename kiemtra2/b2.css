@@ -1,0 +1,30 @@
+.main{
+    text-align: center;
+    font-size: 20px;
+}
+.box{
+    text-align: center;
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    margin-left: 40%;
+}
+.input h1{
+    background-color: red;
+    color: white;
+}
+.input input{
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.but{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: greenyellow;
+}
+.link {
+    text-align: center;
+}
